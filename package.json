@@ -1,0 +1,23 @@
+{
+  "name": "uhuru-knotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "slate watch",
+    "start:dev": "slate start --env development",
+    "start:prod": "slate start --env production",
+    "deploy:dev": "slate deploy --env development",
+    "deploy:prod": "slate deploy --env production",
+    "build": "slate build",
+    "migrate": "slate migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/slate": "^0.14.0"
+  },
+  "devDependencies": {
+    "@shopify/slate-tools": "0.14.0"
+  }
+}

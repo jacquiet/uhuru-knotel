@@ -1,0 +1,713 @@
+{
+  "current": {
+    "color_account_bg": "#ffffff",
+    "color_account_text": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#333333",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_primary": "#333333",
+    "color_splash": "#f26c5a",
+    "color_border": "#cccccc",
+    "homepage_background_light": "#f7f7f7",
+    "homepage_background_dark": "#2e3438",
+    "product_background_color": "#f6f6f6",
+    "product_slideshow_arrows": "#cccccc",
+    "color_footer_bg": "#f2f2f2",
+    "color_footer_text": "#333333",
+    "color_footer_social_link": "#2e3438",
+    "type_header_font": "futura_n4",
+    "type_heading_size": 85,
+    "font_title_capitalize": true,
+    "type_accent_font": "futura_n4",
+    "type_accent_size": 115,
+    "type_base_font": "futura_n4",
+    "type_body_size": 110,
+    "cart_type": "modal",
+    "cart_show_on_click": true,
+    "cart_vendor_enable": false,
+    "cart_notes_enable": false,
+    "cart_quantity": true,
+    "cart_show_additional_buttons": false,
+    "cart_continue_browsing": "shopify://collections/all",
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "hover",
+    "image_hover_enable": true,
+    "image_autoheight_enable": true,
+    "tag_sellout": false,
+    "tag_sale": true,
+    "tag_new": false,
+    "tag_new_limit": 14,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_instagram_link": "",
+    "social_pinterest_link": "",
+    "social_google_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_tumblr_link": "",
+    "social_fancy_link": "",
+    "product_social_enable": false,
+    "share_enable_facebook": false,
+    "share_enable_pinterest": false,
+    "share_enable_google": false,
+    "share_enable_twitter": false,
+    "twittercard_handle": "",
+    "social_home_image": "",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#1391a4",
+    "checkout_button_color": "#1391a4",
+    "checkout_error_color": "#de7878",
+    "checkout_use_header_image": false,
+    "checkout_logo": "",
+    "checkout_use_body_background_image": false,
+    "checkout_use_sidebar_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify://shop_images/Uhuru_knotel_logo-01.png",
+          "logo_max_limit": 150,
+          "main_menu_linklist": "main-menu",
+          "height": "header--large",
+          "meganav_image": "",
+          "meganav_link": "",
+          "header_message": "",
+          "header_message_url": "",
+          "header_enable_account": false,
+          "header_enable_search": false,
+          "search_only_products": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_image": "",
+          "footer_secondary_linklist": "footer",
+          "footer_payment_enable": false,
+          "footer_social_enable": false
+        }
+      },
+      "product": {
+        "type": "product",
+        "blocks": {
+          "1534893988435": {
+            "type": "tab_description",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1534893988435"
+        ],
+        "settings": {
+          "product_breadcrumbs": true,
+          "show_quantity": true,
+          "enable_payment_button": false,
+          "product_nav_enable": false,
+          "product_show_vendor": false,
+          "zoom_enable": false,
+          "related_products_enable": true,
+          "product_reviews_enable": true,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "grid_setting_large": 2,
+          "grid_setting_medium": 2,
+          "grid_setting_small": 2,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": false,
+          "collection_type_nav": false,
+          "collection_vendor_nav": false,
+          "collection_tag_nav": false,
+          "collection_sorting": false,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 0,
+          "text_color": "homepage--dark",
+          "parallax": true
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {
+          "layout": "grid",
+          "blog_show_meta": true,
+          "image": "",
+          "overlay_opacity": 0,
+          "text_color": "homepage--light",
+          "parallax": true,
+          "tags": false
+        }
+      },
+      "article": {
+        "type": "article",
+        "settings": {
+          "blog_show_meta": true,
+          "tags": true,
+          "social": true,
+          "image_height": "use_screen_one_third",
+          "parallax": true,
+          "sidebar_tags": true,
+          "recent": true
+        }
+      },
+      "index-product": {
+        "type": "index-product",
+        "settings": {
+          "title": "Featured product",
+          "home_product": "",
+          "homepage_product_color": "homepage--white",
+          "show_quantity": true,
+          "enable_payment_button": false,
+          "product_show_vendor": false,
+          "zoom_enable": false,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "index-double": {
+        "type": "index-double",
+        "disabled": true,
+        "blocks": {
+          "index-double-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "index-double-1": {
+            "type": "text",
+            "settings": {
+              "title": "Production",
+              "richtext": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments <br><br></p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          }
+        },
+        "block_order": [
+          "index-double-0",
+          "index-double-1"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "index-slideshow": {
+        "type": "index-slideshow",
+        "blocks": {
+          "1535495930398": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/MINIM_RISE_179.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "index-slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "index-slideshow-1": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1535496214148": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1535496309440": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          },
+          "1535496335874": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--large btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535495930398",
+          "index-slideshow-0",
+          "index-slideshow-1",
+          "1535496214148",
+          "1535496309440",
+          "1535496335874"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 4,
+          "height": "use_image"
+        }
+      },
+      "1535497018510": {
+        "type": "index-double",
+        "disabled": true,
+        "blocks": {
+          "1535497018510-1": {
+            "type": "text",
+            "settings": {
+              "title": "Shipments",
+              "richtext": "<p>Ocean Freight (Duration: ~2-8 weeks)</p>\n<p>Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination</p>",
+              "text_align": "text-center",
+              "homepage_bg_color": "homepage--light",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase"
+            }
+          },
+          "1535497018510-0": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "text-center",
+              "color": "homepage--white",
+              "link_text": "",
+              "link": "",
+              "button_style": "btn btn--clear btn--square uppercase",
+              "button_image": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535497018510-1",
+          "1535497018510-0"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "contact-page-field": {
+        "type": "contact-page-field",
+        "settings": {
+          "title": "Help or questions?",
+          "home_page_richtext": "<p><a href=\"mailto:orders@uhurudesign.com\" title=\"mailto:orders@uhurudesign.com\">orders@uhurudesign.com</a></p>\n<p></p>\n<p><a href=\"https://www.google.com/search?q=uhuru+design+phone&amp;rlz=1C5CHFA_enUS704US707&amp;oq=uhuru+design+phone&amp;aqs=chrome..69i57.4364j0j7&amp;sourceid=chrome&amp;ie=UTF-8\" title=\"Call via Hangouts\">718.855.6519</a></p>\n<p></p>\n<p>an account manager will get back to you asap</p>",
+          "homepage_page_color": "homepage--white"
+        }
+      },
+      "1535564536480": {
+        "type": "index-columns",
+        "disabled": true,
+        "blocks": {
+          "1535748161511": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535564536480-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "• SKU Guide",
+              "text": "<p><em>STANDARD FURNITURE</em></p>\n<p>SSC2&nbsp; &nbsp; &nbsp; Shake Shack Chair, V 2.0</p>\n<p>SSB2&nbsp; &nbsp; &nbsp; Shake Shack Backless Barstool</p>\n<p>SST&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Table</p>\n<p>KD&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Knockdown Table</p>\n<p>PT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Picnic Table&nbsp;</p>\n<p>SSP&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Planter</p>\n<p>SSCS&nbsp; &nbsp; &nbsp;Shake Shack Backless Counter Stool</p>\n<p></p>\n<p><em>RETIRED FURNITURE</em></p>\n<p>SSC&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Chair, old version</p>\n<p>SSB&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Barstool, old verions</p>\n<p></p>\n<p><em>INDOOR&nbsp;or&nbsp;OUTDOOR</em></p>\n<p>IN<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Indoor</p>\n<p>O<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Outdoor</p>\n<p></p>\n<p><em>MATERIALS</em></p>\n<p>NA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Natural Ash</p>\n<p>BA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brown Ash</p>\n<p>GRM-DW&nbsp; &nbsp; &nbsp;Deep Walnut</p>\n<p>GRM-TK&nbsp; &nbsp; &nbsp; &nbsp;Teak</p>\n<p>RAL6010&nbsp; &nbsp; &nbsp;Green GRN-M</p>\n<p>RAL7035&nbsp; &nbsp; &nbsp;White&nbsp; WHT-M</p>\n<p>RAL9005&nbsp; &nbsp; &nbsp;BLACK BLK-M</p>\n<p>WT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Walnut</p>\n<p><em>ADA (Americans with Disabilities Act)</em></p>\n<p>4T-S&nbsp; &nbsp; &nbsp;Square ADA Table</p>\n<p>4T-R&nbsp; &nbsp; &nbsp;Rectangular ADA Table</p>\n<p></p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535748146635": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535748161511",
+          "1535564536480-1",
+          "1535748146635"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-left"
+        }
+      },
+      "1535573462435": {
+        "type": "index-collection-grid",
+        "disabled": true,
+        "blocks": {
+          "1535573462435-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "link_text": ""
+            }
+          },
+          "1535573462435-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "link_text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535573462435-0",
+          "1535573462435-1"
+        ],
+        "settings": {
+          "title": "",
+          "grid": 2,
+          "homepage_collection_grid_color": "homepage--white",
+          "color": "homepage--white",
+          "button_style": "btn btn--clear btn--square uppercase",
+          "overlay_opacity": 0
+        }
+      },
+      "password": {
+        "type": "password",
+        "settings": {
+          "logo": "shopify://shop_images/Uhuru_knotel_logo-01.png",
+          "image": "",
+          "richtext": ""
+        }
+      },
+      "1535646694600": {
+        "type": "index-logos",
+        "disabled": true,
+        "blocks": {
+          "1535646737115": {
+            "type": "logo_image",
+            "settings": {
+              "image": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535646737115"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_logos_bg_color": "homepage--white"
+        }
+      },
+      "1535747464912": {
+        "type": "index-columns",
+        "disabled": true,
+        "blocks": {
+          "1535747464912-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535747464912-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "•  Shipments",
+              "text": "<p>Ocean Freight (Duration: ~2-8 weeks)&nbsp; &nbsp; Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination</p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535747912169": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535747464912-0",
+          "1535747464912-1",
+          "1535747912169"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-left"
+        }
+      },
+      "1535748356055": {
+        "type": "index-columns",
+        "disabled": true,
+        "blocks": {
+          "1535748356055-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535748356055-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "• Production",
+              "text": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments&nbsp;</p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1535748356055-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "image": "",
+              "title": "",
+              "text": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1535748356055-0",
+          "1535748356055-1",
+          "1535748356055-2"
+        ],
+        "settings": {
+          "title": "",
+          "homepage_columns_color": "homepage--white",
+          "align_text": "text-left"
+        }
+      },
+      "list-collections": {
+        "type": "list-collections",
+        "settings": {
+          "display_type": "all",
+          "grid": 4,
+          "rows": 1
+        }
+      }
+    },
+    "content_for_index": [
+      "index-slideshow",
+      "1535646694600",
+      "1535573462435",
+      "index-double",
+      "1535497018510",
+      "1535748356055",
+      "1535747464912",
+      "1535564536480"
+    ]
+  },
+  "presets": {
+    "Bright": {
+      "color_account_bg": "#000000",
+      "color_account_text": "#ffffff",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#333333",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_primary": "#333333",
+      "color_splash": "#1391a4",
+      "color_border": "#cccccc",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_background_color": "#f6f6f6",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_text": "#333333",
+      "color_footer_social_link": "#2e3438",
+      "type_header_font": "oswald_n4",
+      "type_heading_size": 100,
+      "font_title_capitalize": true,
+      "type_accent_font": "montserrat_n5",
+      "type_accent_size": 100,
+      "type_base_font": "sabon_next_n4",
+      "type_body_size": 110,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1391a4",
+      "checkout_button_color": "#1391a4",
+      "checkout_error_color": "#DE7878"
+    },
+    "Dark": {
+      "color_account_bg": "#212121",
+      "color_account_text": "#d4d4d4",
+      "color_header_bg": "#353535",
+      "color_header_text": "#ffffff",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#3c3c3c",
+      "color_primary": "#000000",
+      "color_splash": "#e73131",
+      "color_border": "#cfcfcf",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#585858",
+      "product_background_color": "#ffffff",
+      "product_slideshow_arrows": "#cfcfcf",
+      "color_footer_bg": "#383838",
+      "color_footer_text": "#e3e3e3",
+      "color_footer_social_link": "#767676",
+      "type_header_font": "itc_caslon_no_224_n7",
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n4",
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#8b1e1e",
+      "checkout_button_color": "#e73131",
+      "checkout_error_color": "#ff862b"
+    },
+    "Light": {
+      "color_account_bg": "#f3f3f3",
+      "color_account_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#585e71",
+      "color_splash": "#f4a482",
+      "color_border": "#f7f7f7",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_background_color": "#FFFFFF",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_bg": "#ffffff",
+      "color_footer_text": "#656565",
+      "color_footer_social_link": "#a9a9a9",
+      "type_header_font": "megrim_n4",
+      "font_title_capitalize": true,
+      "type_accent_font": "questrial_n4",
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#E37648",
+      "checkout_button_color": "#f4a482",
+      "checkout_error_color": "#585e71"
+    }
+  }
+}
