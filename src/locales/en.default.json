@@ -305,7 +305,8 @@
       "compare_at": "Compare at",
       "quantity": "Quantity",
       "add_to_cart": "Add to Cart",
-      "join_membership": "Join Now"
+      "join_membership": "Join Now",
+      "add_to_estimate_cart": "Add to Estimate Cart"
     }
   },
   "gift_cards": {
