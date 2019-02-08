@@ -86,7 +86,8 @@
       "continue_browsing_html": "Continue browsing here",
       "view_cart": "View Cart",
       "close_cart": "Close Cart",
-      "estimate_cart": "Estimate Cart"
+      "estimate_cart": "Estimate Cart",
+      "update_estimate_cart": "Update Estimate Cart"
     },
     "label": {
       "price": "Price",
