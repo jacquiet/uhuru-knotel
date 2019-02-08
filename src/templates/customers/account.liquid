@@ -33,7 +33,7 @@
 
     <div class="grid__item two-thirds medium-down--one-whole">
 
-      <p class="h4--body">{{ 'customer.orders.title' | t }}</p>
+      <p class="h4--body">{{ 'customer.orders.estimate_history' | t }}</p>
 
       {% comment %}
         If we have past orders, loop through each one
@@ -45,11 +45,11 @@
           <table class="full table--responsive">
             <thead>
               <tr>
-                <th>{{ 'customer.orders.order_number' | t }}</th>
+                <th>{{ 'customer.orders.Estimate' | t }}</th>
                 <th>{{ 'customer.orders.date' | t }}</th>
-                <th>{{ 'customer.orders.payment_status' | t }}</th>
+                {% comment %} <th>{{ 'customer.orders.payment_status' | t }}</th> {% endcomment %}
                 <th>{{ 'customer.orders.fulfillment_status' | t }}</th>
-                <th>{{ 'customer.orders.total' | t }}</th>
+                {% comment %} <th>{{ 'customer.orders.total' | t }}</th> {% endcomment %}
               </tr>
             </thead>
             <tbody>
@@ -57,9 +57,9 @@
                 <tr>
                   <td data-label="{{ 'customer.orders.order_number' | t }}">{{ order.name | link_to: order.customer_url }}</td>
                   <td data-label="{{ 'customer.orders.date' | t }}">{{ order.created_at | date: format: 'month_day_year' }}</td>
-                  <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td>
+                  {% comment %} <td data-label="{{ 'customer.orders.payment_status' | t }}">{{ order.financial_status_label }}</td> {% endcomment %}
                   <td data-label="{{ 'customer.orders.fulfillment_status' | t }}">{{ order.fulfillment_status_label }}</td>
-                  <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td>
+                  {% comment %} <td data-label="{{ 'customer.orders.total' | t }}">{{ order.total_price | money }}</td> {% endcomment %}
                 </tr>
               {% endfor %}
             </tbody>
