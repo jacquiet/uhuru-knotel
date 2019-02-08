@@ -78,7 +78,7 @@
       "remove": "Remove",
       "note": "Special instructions for seller",
       "subtotal": "Subtotal",
-      "shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "shipping_at_checkout": "Shipping & taxes not calculated at this point",
       "update": "Update Cart",
       "checkout": "Check Out",
       "empty": "Your cart is empty.",
@@ -328,5 +328,43 @@
   },
   "date_formats": {
     "month_day_year": "%B %d, %Y"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "cart": "Estimate Cart",
+        "back_to_cart": "Return to Estimate cart",
+        "continue_to_shipping_method": "Continue to Shipping info",
+        "back_to_contact_information": "Return to Purchaser information",
+        "continue_to_payment_method": "Continue to payment terms",
+        "back_to_shipping_method": "Return to shipping information",
+        "complete_purchase_button_label": "Submit estimate"
+      },
+      "contact": {
+        "title": "Purchaser Info"
+      },
+      "shipping": {
+        "title": "Shipping info",
+        "shipping_method_title": "Shipping info",
+        "free_rate_label": "N\/A"
+      },
+      "payment": {
+        "title": "Payment terms",
+        "card_security_notice": " "
+      },
+      "order_summary": {
+        "shipping_default_value": "Shipping not estimated at this point",
+        "free_total_label": "N\/A",
+        "partial_total_label": "Estimate total",
+        "total_label": "Estimate total",
+        "order_name_label": "Estimate {{name}}"
+      },
+      "thank_you": {
+        "thank_you_title": "Your estimate has been submitted",
+        "customer_information_title": "Purchaser information",
+        "payment_method_title": "Payment info",
+        "return_to_store_link_label": "Continue browsing"
+      }
+    }
   }
 }

@@ -29,7 +29,7 @@
     "cart_notes_enable": false,
     "cart_quantity": true,
     "cart_show_additional_buttons": false,
-    "cart_continue_browsing": "shopify://collections/all",
+    "cart_continue_browsing": "shopify:\/\/collections\/all",
     "collection_text_alignment": "text-center",
     "product_grid_style": "hover",
     "image_hover_enable": true,
@@ -54,7 +54,7 @@
     "share_enable_twitter": false,
     "twittercard_handle": "",
     "social_home_image": "",
-    "favicon": "",
+    "favicon": "shopify:\/\/shop_images\/Uhuru_favicon.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -77,7 +77,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify://shop_images/Uhuru_knotel_logo-01.png",
+          "logo": "shopify:\/\/shop_images\/Uhuru_knotel_logo-01.png",
           "logo_max_limit": 150,
           "main_menu_linklist": "main-menu",
           "height": "header--large",
@@ -104,7 +104,8 @@
         "blocks": {
           "1534893988435": {
             "type": "tab_description",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
@@ -202,7 +203,7 @@
             "type": "text",
             "settings": {
               "title": "Production",
-              "richtext": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments <br><br></p>",
+              "richtext": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments <br><br><\/p>",
               "text_align": "text-center",
               "homepage_bg_color": "homepage--light",
               "link_text": "",
@@ -225,7 +226,7 @@
           "1535495930398": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/MINIM_RISE_179.jpg",
+              "image": "shopify:\/\/shop_images\/MINIM_RISE_179.jpg",
               "overlay_opacity": 0,
               "title": "",
               "description": "",
@@ -335,7 +336,7 @@
             "type": "text",
             "settings": {
               "title": "Shipments",
-              "richtext": "<p>Ocean Freight (Duration: ~2-8 weeks)</p>\n<p>Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination</p>",
+              "richtext": "<p>Ocean Freight (Duration: ~2-8 weeks)<\/p>\n<p>Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination<\/p>",
               "text_align": "text-center",
               "homepage_bg_color": "homepage--light",
               "link_text": "",
@@ -371,7 +372,7 @@
         "type": "contact-page-field",
         "settings": {
           "title": "Help or questions?",
-          "home_page_richtext": "<p><a href=\"mailto:orders@uhurudesign.com\" title=\"mailto:orders@uhurudesign.com\">orders@uhurudesign.com</a></p>\n<p></p>\n<p><a href=\"https://www.google.com/search?q=uhuru+design+phone&amp;rlz=1C5CHFA_enUS704US707&amp;oq=uhuru+design+phone&amp;aqs=chrome..69i57.4364j0j7&amp;sourceid=chrome&amp;ie=UTF-8\" title=\"Call via Hangouts\">718.855.6519</a></p>\n<p></p>\n<p>an account manager will get back to you asap</p>",
+          "home_page_richtext": "<p><a href=\"mailto:orders@uhurudesign.com\" title=\"mailto:orders@uhurudesign.com\">orders@uhurudesign.com<\/a><\/p>\n<p><\/p>\n<p><a href=\"https:\/\/www.google.com\/search?q=uhuru+design+phone&amp;rlz=1C5CHFA_enUS704US707&amp;oq=uhuru+design+phone&amp;aqs=chrome..69i57.4364j0j7&amp;sourceid=chrome&amp;ie=UTF-8\" title=\"Call via Hangouts\">718.855.6519<\/a><\/p>\n<p><\/p>\n<p>an account manager will get back to you asap<\/p>",
           "homepage_page_color": "homepage--white"
         }
       },
@@ -396,7 +397,7 @@
               "enable_image": false,
               "image": "",
               "title": "• SKU Guide",
-              "text": "<p><em>STANDARD FURNITURE</em></p>\n<p>SSC2&nbsp; &nbsp; &nbsp; Shake Shack Chair, V 2.0</p>\n<p>SSB2&nbsp; &nbsp; &nbsp; Shake Shack Backless Barstool</p>\n<p>SST&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Table</p>\n<p>KD&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Knockdown Table</p>\n<p>PT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Picnic Table&nbsp;</p>\n<p>SSP&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Planter</p>\n<p>SSCS&nbsp; &nbsp; &nbsp;Shake Shack Backless Counter Stool</p>\n<p></p>\n<p><em>RETIRED FURNITURE</em></p>\n<p>SSC&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Chair, old version</p>\n<p>SSB&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Barstool, old verions</p>\n<p></p>\n<p><em>INDOOR&nbsp;or&nbsp;OUTDOOR</em></p>\n<p>IN<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Indoor</p>\n<p>O<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</strong>Outdoor</p>\n<p></p>\n<p><em>MATERIALS</em></p>\n<p>NA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Natural Ash</p>\n<p>BA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brown Ash</p>\n<p>GRM-DW&nbsp; &nbsp; &nbsp;Deep Walnut</p>\n<p>GRM-TK&nbsp; &nbsp; &nbsp; &nbsp;Teak</p>\n<p>RAL6010&nbsp; &nbsp; &nbsp;Green GRN-M</p>\n<p>RAL7035&nbsp; &nbsp; &nbsp;White&nbsp; WHT-M</p>\n<p>RAL9005&nbsp; &nbsp; &nbsp;BLACK BLK-M</p>\n<p>WT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Walnut</p>\n<p><em>ADA (Americans with Disabilities Act)</em></p>\n<p>4T-S&nbsp; &nbsp; &nbsp;Square ADA Table</p>\n<p>4T-R&nbsp; &nbsp; &nbsp;Rectangular ADA Table</p>\n<p></p>",
+              "text": "<p><em>STANDARD FURNITURE<\/em><\/p>\n<p>SSC2&nbsp; &nbsp; &nbsp; Shake Shack Chair, V 2.0<\/p>\n<p>SSB2&nbsp; &nbsp; &nbsp; Shake Shack Backless Barstool<\/p>\n<p>SST&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Table<\/p>\n<p>KD&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Knockdown Table<\/p>\n<p>PT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Picnic Table&nbsp;<\/p>\n<p>SSP&nbsp; &nbsp; &nbsp; &nbsp; Shake Shack Planter<\/p>\n<p>SSCS&nbsp; &nbsp; &nbsp;Shake Shack Backless Counter Stool<\/p>\n<p><\/p>\n<p><em>RETIRED FURNITURE<\/em><\/p>\n<p>SSC&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Chair, old version<\/p>\n<p>SSB&nbsp; &nbsp; &nbsp; &nbsp;Shake Shack Barstool, old verions<\/p>\n<p><\/p>\n<p><em>INDOOR&nbsp;or&nbsp;OUTDOOR<\/em><\/p>\n<p>IN<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<\/strong>Indoor<\/p>\n<p>O<strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<\/strong>Outdoor<\/p>\n<p><\/p>\n<p><em>MATERIALS<\/em><\/p>\n<p>NA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Natural Ash<\/p>\n<p>BA&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Brown Ash<\/p>\n<p>GRM-DW&nbsp; &nbsp; &nbsp;Deep Walnut<\/p>\n<p>GRM-TK&nbsp; &nbsp; &nbsp; &nbsp;Teak<\/p>\n<p>RAL6010&nbsp; &nbsp; &nbsp;Green GRN-M<\/p>\n<p>RAL7035&nbsp; &nbsp; &nbsp;White&nbsp; WHT-M<\/p>\n<p>RAL9005&nbsp; &nbsp; &nbsp;BLACK BLK-M<\/p>\n<p>WT&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Walnut<\/p>\n<p><em>ADA (Americans with Disabilities Act)<\/em><\/p>\n<p>4T-S&nbsp; &nbsp; &nbsp;Square ADA Table<\/p>\n<p>4T-R&nbsp; &nbsp; &nbsp;Rectangular ADA Table<\/p>\n<p><\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -461,7 +462,7 @@
       "password": {
         "type": "password",
         "settings": {
-          "logo": "shopify://shop_images/Uhuru_knotel_logo-01.png",
+          "logo": "shopify:\/\/shop_images\/Uhuru_knotel_logo-01.png",
           "image": "",
           "richtext": ""
         }
@@ -507,7 +508,7 @@
               "enable_image": false,
               "image": "",
               "title": "•  Shipments",
-              "text": "<p>Ocean Freight (Duration: ~2-8 weeks)&nbsp; &nbsp; Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination</p>",
+              "text": "<p>Ocean Freight (Duration: ~2-8 weeks)&nbsp; &nbsp; Air Freight (Duration: ~1-2 weeks) *depending on&nbsp;final destination<\/p>",
               "button_label": "",
               "button_link": ""
             }
@@ -556,7 +557,7 @@
               "enable_image": false,
               "image": "",
               "title": "• Production",
-              "text": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments&nbsp;</p>",
+              "text": "<p>Standard Lead 8-10 weeks<br>Blackout Period: Each February Shipments&nbsp;<\/p>",
               "button_label": "",
               "button_link": ""
             }
