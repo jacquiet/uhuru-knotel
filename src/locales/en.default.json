@@ -20,8 +20,8 @@
     "search": {
       "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
       "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
-      "title": "Search for products on our site",
-      "placeholder": "Search our store",
+      "title": "Search for products on the portal",
+      "placeholder": "Search the portal",
       "submit": "Search"
     },
     "share": {
@@ -31,7 +31,7 @@
       "google": "+1"
     },
     "password_page": {
-      "login_form_heading": "Enter store with password",
+      "login_form_heading": "Enter portal with password",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
       "login_form_submit": "Enter",
@@ -74,17 +74,17 @@
   },
   "cart": {
     "general": {
-      "title": "Your Cart",
+      "title": "Your Estimate Cart",
       "remove": "Remove",
-      "note": "Special instructions for seller",
+      "note": "Estimate ref# and any additional notes:",
       "subtotal": "Subtotal",
       "shipping_at_checkout": "Shipping & taxes not calculated at this point",
       "update": "Update Cart",
       "checkout": "Check Out",
-      "empty": "Your cart is empty.",
+      "empty": "Your estimate cart is empty.",
       "stockout": "All available stock is in cart",
       "continue_browsing_html": "Continue browsing here",
-      "view_cart": "View Cart",
+      "view_cart": "View Estimate Cart",
       "close_cart": "Close Cart",
       "estimate_cart": "Estimate Cart",
       "update_estimate_cart": "Update Estimate Cart"

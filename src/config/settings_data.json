@@ -26,7 +26,7 @@
     "cart_type": "modal",
     "cart_show_on_click": true,
     "cart_vendor_enable": false,
-    "cart_notes_enable": false,
+    "cart_notes_enable": true,
     "cart_quantity": true,
     "cart_show_additional_buttons": false,
     "cart_continue_browsing": "shopify:\/\/collections\/all",
@@ -104,8 +104,7 @@
         "blocks": {
           "1534893988435": {
             "type": "tab_description",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
