@@ -104,7 +104,8 @@
         "blocks": {
           "1534893988435": {
             "type": "tab_description",
-            "settings": {}
+            "settings": {
+            }
           }
         },
         "block_order": [
