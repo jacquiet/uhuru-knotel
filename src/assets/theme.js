@@ -1583,6 +1583,10 @@ theme.Product = (function() {
 
       if (variant) {
 
+        /* -- code added for SKU -- */
+        $('#sku').text('SKU: ' + variant.sku);
+        /* - end - */
+
         // Select a valid variant if available
         if (variant.available) {
           // Available, enable the submit button, change text, show quantity elements

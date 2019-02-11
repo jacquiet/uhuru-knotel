@@ -89,6 +89,13 @@
           {% endif %}
           <h1 itemprop="name" class="h2">{{ product.title }}</h1>
 
+          <!-- Code added for SKU -->                       
+          {% assign current_variant = product.selected_or_first_available_variant %}
+          {% if current_variant.sku != "" %}
+          <p class="text-center uppercase"><span id="sku"></span></p> 
+          {% endif %}    
+          <!-- end SKU -->
+
           {% comment %}
             If the product description is over 1000 characters or contains an embed code,
             place the description in a full width container below the image and cart button.
