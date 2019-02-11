@@ -6698,6 +6698,19 @@ button.mfp-close {
   width: unset;
 }
 
+.cart__footer__text.grey-buttons {
+  display: none;
+}
 .ajaxcart--modal .cart__footer__text.grey-buttons {
-  dis
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  .btn {
+    width: 250px;
+    padding: 9px 10px;
+    background-color: #999;
+    &:hover {
+      background-color: #666;
+    }
+  }
 }
