@@ -20,10 +20,10 @@
           <div class="grid__item large--one-half push--large--one-half">
             <div class="grid--full">
               {% if settings.cart_quantity %}
-                <div class="grid__item one-quarter medium-down--one-quarter">
+                <div class="grid__item one-quarter medium-down--one-quarter" style="width: 30%">
                   SKU
                 </div>
-                <div class="grid__item one-quarter medium-down--one-quarter">
+                <div class="grid__item one-quarter medium-down--one-quarter" style="width: 20%">
                   {{ 'cart.label.price' | t }}
                 </div>
                 <div class="grid__item one-quarter medium-down--one-quarter text-center">
@@ -97,10 +97,10 @@
             </div>
 
             <div class="grid__item large--one-half">
-              <div class="grid--full cart__row--table-large">
+              <div class="grid--full cart__row--table-large" style="padding-left: 0;">
                 {% if settings.cart_quantity %}
 
-                  <div class="grid__item one-quarter text-left">
+                  <div class="grid__item one-quarter text-left" style="width: 30%">
                     <!-- Code added for SKU -->
                     {% assign current_variant = item.product.selected_or_first_available_variant %}
                     <span class="cart__mini-labels">SKU</span>                    
@@ -108,7 +108,7 @@
                     <!-- end SKU -->
                   </div>
 
-                  <div class="grid__item one-quarter text-left">
+                  <div class="grid__item one-quarter text-left" style="width: 20%">
                     <span class="cart__mini-labels">{{ 'cart.label.price' | t }}</span>                    
                     <span class="h5--body money">{{ item.price | money }}</span>
                   </div>

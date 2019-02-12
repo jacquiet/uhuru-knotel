@@ -6701,26 +6701,32 @@ button.mfp-close {
 .cart__footer__text.grey-buttons {
   display: none;
 }
-.ajaxcart--modal .cart__footer__text.grey-buttons {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  .btn {
-    width: 250px;
-    padding: 9px 10px;
-    background-color: #999;
-    &:hover {
-      background-color: #666;
+.ajaxcart--modal {
+  .cart__footer__text.grey-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    .btn {
+      width: 250px;
+      padding: 9px 10px;
+      background-color: #999;
+      &:hover {
+        background-color: #666;
+      }
+      &:first-child {
+        margin-right: 50px;
+      }
     }
-    &:first-child {
-      margin-right: 50px;
+    @media (max-width: 600px) {
+      display: block;
+      .btn:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
     }
   }
-  @media (max-width: 600px) {
-    display: block;
-    .btn:first-child {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
+  .cart__row .cart__row--table-large {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
