@@ -20,16 +20,19 @@
           <div class="grid__item large--one-half push--large--one-half">
             <div class="grid--full">
               {% if settings.cart_quantity %}
-                <div class="grid__item one-third medium-down--one-third">
+                <div class="grid__item one-quarter medium-down--one-quarter">
+                  SKU
+                </div>
+                <div class="grid__item one-quarter medium-down--one-quarter">
                   {{ 'cart.label.price' | t }}
                 </div>
-                <div class="grid__item one-third medium-down--one-third text-center">
+                <div class="grid__item one-quarter medium-down--one-quarter text-center">
                   {{ 'cart.label.quantity' | t }}
                 </div>
               {% else %}
-                <div class="grid__item two-thirds medium-down--two-thirds"></div>
+                <div class="grid__item two-quarters medium-down--two-quarters"></div>
               {% endif %}
-              <div class="grid__item one-third medium-down--one-third text-right">
+              <div class="grid__item one-quarter medium-down--one-quarter text-right">
                 {{ 'cart.label.total' | t }}
               </div>
             </div>
@@ -96,12 +99,21 @@
             <div class="grid__item large--one-half">
               <div class="grid--full cart__row--table-large">
                 {% if settings.cart_quantity %}
-                  <div class="grid__item one-third text-left">
-                    <span class="cart__mini-labels">{{ 'cart.label.price' | t }}</span>
+
+                  <div class="grid__item one-quarter text-left">
+                    <!-- Code added for SKU -->
+                    {% assign current_variant = item.product.selected_or_first_available_variant %}
+                    <span class="cart__mini-labels">SKU</span>                    
+                    <span class="h5--body money">{{ current_variant.sku }}</span>                     
+                    <!-- end SKU -->
+                  </div>
+
+                  <div class="grid__item one-quarter text-left">
+                    <span class="cart__mini-labels">{{ 'cart.label.price' | t }}</span>                    
                     <span class="h5--body money">{{ item.price | money }}</span>
                   </div>
 
-                  <div class="grid__item one-third text-center">
+                  <div class="grid__item one-quarter text-center">
                     <span class="cart__mini-labels">{{ 'cart.label.quantity' | t }}</span>
                     {% comment %}
                       Added data-id for the ajax cart implementation only.
@@ -109,10 +121,10 @@
                     <input type="number" name="updates[]" id="updates_{{ item.id }}" value="{{ item.quantity }}" min="0" data-id="{{ item.id }}" data-submit="true" class="ajaxcart--hide">
                   </div>
                 {% else %}
-                  <div class="grid__item two-thirds"></div>
+                  <div class="grid__item two-quarters"></div>
                 {% endif %}
 
-                <div class="grid__item one-third text-right">
+                <div class="grid__item one-quarter text-right">
                   <span class="cart__mini-labels">{{ 'cart.label.total' | t }}</span>
                   <span class="h5--body money">{{ item.line_price | money }}</span>
                 </div>
