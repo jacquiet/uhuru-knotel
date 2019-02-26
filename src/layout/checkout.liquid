@@ -68,3 +68,84 @@
   padding: 15px 0;
 }
 </style>
+
+<!--
+<script>
+(function($){
+  $(document).on('page:load page:change', function() {
+
+    if (Shopify.Checkout.step === 'payment_method') {
+
+      $('[data-billing-address]').after(`
+        <div class="section section--payment-method" style="display: none">
+          <div class="section__header">
+            <h2 class="section__title">Other information</h2>
+          </div>
+          <div class="section__content">
+            <div class="content-box">
+              <div class="radio-wrapper content-box__row content-box__row--secondary">
+                <div class="fieldset">
+                  <div class="field field--required">        
+                    <div class="field__input-wrapper">
+                      <label class="field__label field__label--visible" for="checkout_estimate">Estimate Reference #</label>
+                      <input placeholder="Estimate Reference #" class="field__input" name="checkout[attributes][estimate]" id="checkout_estimate">
+                    </div>
+                  </div>
+                  <div class="field field--required">        
+                    <div class="field__input-wrapper">
+                      <label class="field__label field__label--visible" for="checkout_notes">Other Notes</label>
+                      <textarea placeholder="Other Notes" class="field__input" rows="5" name="checkout[billing_address][notes]" id="checkout_notes"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `);
+    }
+
+    if (Shopify.Checkout.OrderStatus) {
+      var data = Shopify.checkout;
+      console.log(Shopify.checkout);
+      $('.section > .section__content').append(`
+        <div class="content-box" style="display: none">
+          <div class="content-box__row content-box__row--no-border">
+            <h2>Other Information</h2>
+          </div>
+          <div class="content-box__row">
+            <div class="section__content">
+              <div section__content__column>
+                <h3>Estimate Reference</h3>
+                <p>Some detail here</p>
+                <h3>Other Notes</h3>
+                <p>some detail here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      `);
+    }
+
+    $products = $('.product-table .product__description');
+    var length = $products.length;
+    console.log(length);
+
+    for (var i = 0; i < length; i++) {
+      $el = $($products[i]);
+      console.log(Shopify);
+      if ($el.find('.sku').length === 0) {
+        $el.append(`
+          <span class="product__description__variant order-summary__small-text" style="display: none">
+            asdsdfsd
+          </span>
+        `);
+      } else {
+        console.log('has');
+      }
+    }
+    
+  });
+})(Checkout.jQuery)
+</script>
+-->
